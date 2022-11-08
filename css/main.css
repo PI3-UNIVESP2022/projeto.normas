@@ -12,14 +12,15 @@ background-color: #FFFFFF;
 height: 60px;
 }
 main, .content {
-margin: 0 auto;
+margin: center;
 width: 980px;
 position: relative;
 }
 .logo {
- float: left;
- padding: 16px;
- width: 70%;
+    text-align: center;
+    float: left;
+    padding: 16px;
+    width: 100%;
 }
 
 .header-2 {
@@ -54,8 +55,9 @@ border-bottom: 10px solid #efefef;
     text-transform: uppercase;
 }
 .menu {
-width: 70%;
-float: left;
+    text-align: center;
+    width: 100%;
+    float: left;
 }
 .busca {
     text-align: center;
@@ -167,14 +169,14 @@ li.slick-active button {
     height: auto;
 }
 .bloco-imagem {
-    height: 300px;
+    height: 350px;
     border: 1px solid #c5c5c5;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 10px;
+    margin-center: 10px;
 }
 .bloco-imagem b, p {
-    text-align: left;
+    text-align: center;
 }
 .bloco-texto {
     margin-top: 3em;
@@ -204,12 +206,12 @@ h3 {
     content: '';
     height: 70px;
     background: #eeeeee;
-} 
-.col-4 {
-    float: left;
-    width: 25%;
-    text-align: center;
 }
+.col-4 {
+    text-align: center;
+    float: left;
+    width: 50%;
+    }
 .col-4 img {
 cursor: pointer;
  margin: 0 auto;
